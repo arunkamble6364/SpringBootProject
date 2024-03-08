@@ -10,5 +10,11 @@ public interface EmployeeService {
 	
 	public List<Employee> findAllEmployee();
 	
+	public Employee getEmpByID(Integer id);
+	
+	public Employee updateEmployee(Employee employee);
+	
+	public void deleteEmployeeById(Integer id);
+	
 
 }
